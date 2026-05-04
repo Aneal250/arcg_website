@@ -3,6 +3,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 20px;
 }
 
 /* common css*/
@@ -36,7 +37,10 @@ nav {
 .nav_give {
   background-color: red;
   color: white;
-  width: 141px;
-  height: 63px;
+  width: 140px;
+  height: 58px;
   border-radius: 10px;
+  box-shadow: none;
+  outline: none;
+  border: none;
 }
