@@ -4,3 +4,39 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+/* common css*/
+.flex {
+  display: flex;
+}
+
+/* Nav bar */
+nav {
+  display: flex;
+  width: 1440px;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 64px;
+  width: 64px;
+}
+
+.menu {
+  list-style-type: none;
+  gap: 20px;
+}
+
+.nav_right {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_give {
+  background-color: red;
+  color: white;
+  width: 141px;
+  height: 63px;
+  border-radius: 10px;
+}
