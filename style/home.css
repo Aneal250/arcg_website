@@ -1,82 +1,298 @@
-/* Hero Section */
+/* Hero */
 .hero-content {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assests/imgs/worshippers.jpg");
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  min-height: clamp(420px, 70vh, 705px);
+  padding: 48px 24px;
+  border-radius: var(--radius-lg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../assests/imgs/worshippers.jpg");
   background-size: cover;
   background-position: center;
-  text-align: center;
-  flex-direction: column;
-  height: 705px;
-  width: 100%;
-  border-radius: 25px;
 }
 
 .hero_title {
-  font-size: 80px;
-  color: white;
   margin: 0;
-  padding-top: 60px;
+  color: #fff;
   font-family: "Rubik", sans-serif;
+  font-size: clamp(2rem, 6vw, 5rem);
+  line-height: 1.1;
 }
 
-
 .hero_subtitle {
+  margin: 20px 0 0;
+  max-width: 52ch;
+  color: #fff;
   font-family: "Lato", sans-serif;
-  font-size: 24px;
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
   font-weight: 400;
-  font-style: medium;
-  color: white;
-  margin-top: 20px;
 }
 
 .hero_buttons {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 16px;
+  width: 100%;
+  max-width: 640px;
   margin-top: 30px;
-  width: 500px;
-  height: 90px;
-  padding: 20px 80px;
+}
+
+.hero_button,
+.hero_button1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  padding: 16px 28px;
+  white-space: nowrap;
 }
 
 .hero_button {
-  background-color: darkred;
-  color: white;
+  background-color: var(--color-primary);
+  color: #fff;
   border: none;
-  font-family: "Nunito", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 14px;
-  border-radius: 15px;
-  cursor: pointer;
-  margin-top: 30px;
-  padding: 20px 40px;
 }
 
 .hero_button1 {
   background-color: transparent;
   backdrop-filter: blur(20px);
-  color: white;
-  border: 1px solid rgba(255, 255, 255, 0.411);
-  font-size: 14px;
-  font-family: "Nunito", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  border-radius: 15px;
-  cursor: pointer;
-  margin-top: 30px;
-  padding: 20px 40px;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 .hero_schedule {
-  margin-top: 30px;
+  margin-top: 24px;
+  padding: 0 8px;
+  max-width: 900px;
+  color: #fff;
   font-family: "Nunito", sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  color: white;
-  font-weight: lighter;
-  padding-top: 20px;
+  font-size: clamp(0.75rem, 2vw, 1.25rem);
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.hero_schedule p {
+  margin: 0;
+}
+
+/* Feature grid */
+.values_container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.grid_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 280px;
+  padding: 24px;
+  border-radius: var(--radius-lg);
+  color: #fff;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.grid_card--community {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68)),
+    url("../assests/imgs/hug.jpg");
+}
+
+.grid_card--faith {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68)),
+    url("../assests/imgs/bible.jpg");
+}
+
+.grid_card--serve {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68)),
+    url("../assests/imgs/service.jpg");
+}
+
+.grid_card--give {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68)),
+    url("../assests/imgs/give.jpg");
+}
+
+.grid_card h3 {
+  margin: 0 0 8px;
+  font-family: "Lato", sans-serif;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 400;
+}
+
+.grid_card p {
+  margin: 0;
+  padding: 0 12px;
+  font-family: "Lato", sans-serif;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.worship_bg {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42)),
+    url("../assests/imgs/praying.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+/* Worship */
+.worship_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  min-height: clamp(500px, 60vh, 850px);
+  margin: 50px auto 0;
+  padding: clamp(48px, 8vw, 100px) var(--section-padding-x);
+  text-align: center;
+  border-radius: var(--radius-lg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 16px auto;
+  min-height: 847px;
+}
+
+.content_message {
+  color: #fff;
+  max-width: 640px;
+}
+
+.content_message h4 {
+  margin: 0 0 8px;
+  font-family: "Lato", sans-serif;
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  font-weight: 400;
+}
+
+.content_message p {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-size: clamp(1rem, 2vw, 1.125rem);
+  font-weight: 300;
+}
+
+.schedule_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.service_schedule {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 280px;
+  max-width: 375px;
+  min-height: 180px;
+  padding: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  border-radius: var(--radius-lg);
+  color: #fff;
+  backdrop-filter: blur(50px);
+}
+
+.service_schedule p {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.join_us_button {
+  background-color: var(--color-primary);
+  color: #fff;
+  width: min(100%, 320px);
+  height: 63px;
+  border: none;
+  border-radius: 10px;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+  margin-top: 126px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .grid_container {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .grid_card {
+    min-height: 240px;
+  }
+
+  .worship {
+    margin-top: 32px;
+    border-radius: 16px;
+  }
+
+  .schedule_content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service_schedule {
+    flex: 1 1 auto;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-content {
+    padding: 32px 16px;
+    border-radius: 16px;
+  }
+
+  .hero_buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero_button,
+  .hero_button1 {
+    width: 100%;
+    white-space: normal;
+  }
+}
+
+@media (max-width: 480px) {
+  .grid_card {
+    min-height: 200px;
+    border-radius: 16px;
+    padding: 20px 16px;
+  }
+
+  .worship {
+    margin-top: 24px;
+    gap: 24px;
+  }
+
+  .service_schedule {
+    min-height: 140px;
+  }
 }
