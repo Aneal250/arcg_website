@@ -1,101 +1,133 @@
 <!doctype html>
 <html lang="en">
-  
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ARCG</title>
-      <link rel="stylesheet" href="styles.css">
-    
 
-    <!-- google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&family=Nunito:wght@400;600;700&family=Lato:wght@300;400&display=swap"
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" 
-      rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" 
-      rel="stylesheet">
-    
-    <!-- stylesheets -->
+    />
+
     <link rel="stylesheet" href="style/global.css" />
     <link rel="stylesheet" href="style/nav.css" />
     <link rel="stylesheet" href="style/home.css" />
-    <link rel="stylesheet" href="style/grid.css"/>
-    <link rel="stylesheet" href="style/grid1.css"/>
-    </link>
+    <link rel="stylesheet" href="style/footer.css" />
   </head>
 
   <body>
-    <!-- Nav Bar -->
-    <nav>
-      <img src="./assests/imgs/logo_arcg.png" class="logo" />
-      <div class="nav_right">
-        <ul class="menu flex">
-          <li>Events</li>
-          <li>Gallery</li>
-          <li>About</li>
-          <li>Contact</li>
+    <!-- nav bar -->
+    <nav class="navbar">
+      <a href="index.html" class="nav-brand">
+        <img src="./assests/imgs/logo_arcg.png" class="logo" alt="ARCG logo" />
+      </a>
+
+      <button
+        type="button"
+        class="nav-toggle"
+        aria-label="Open menu"
+        aria-expanded="false"
+        aria-controls="nav-menu"
+      >
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <div class="nav_right" id="nav-menu">
+        <ul class="menu">
+          <li><a href="event.html">Events</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
-        <button class="nav_give">Give</button>
+        <button type="button" class="nav_give">Give</button>
       </div>
     </nav>
 
-    <!-- Home Page -->
+    <!-- hero section -->
     <section class="container hero">
       <div class="hero-content">
-        <h1 class="hero_title">Find Your Purpose,<br> Find Your Faith</h1>
-  
-        <h5 class="hero_subtitle">
+        <h1 class="hero_title">Find Your Purpose, Find Your Faith</h1>
+        <p class="hero_subtitle">
           Join our welcoming community as we worship, fellowship, grow, and
-          serve<br/> together in faith and love.
-        </h5>
+          serve together in faith and love.
+        </p>
         <div class="hero_buttons">
-          <button class="hero_button">Join Us this Sunday ></button>
-          <button class="hero_button1">Watch Latest Sermon ></button>
+          <button type="button" class="hero_button">
+            Join Us this Sunday &gt;
+          </button>
+          <button type="button" class="hero_button1">
+            Watch Latest Sermon &gt;
+          </button>
         </div>
         <div class="hero_schedule">
-        <h6>Sunday Service: 10:00 AM - 12:00 AM | Wednesday Bible Study: 5:00 PM - 7:00 PM | Tuesday Prayer Meeting: 7:00 PM - 8:00 PM </h6>
-      </div>
+          <p>
+            Sunday Service: 10:00 AM – 12:00 PM · Wednesday Bible Study: 5:00 PM
+            – 7:00 PM · Tuesday Prayer Meeting: 7:00 PM – 8:00 PM
+          </p>
+        </div>
       </div>
     </section>
 
-    <div class="grid_container">
-      <div class="box1">
+    <!-- Values section -->
+    <section class="container values_container" aria-label="What we offer">
+      <article class="grid_card grid_card--community">
         <h3>Experience Community</h3>
-        <p>Find belonging in a welcoming community that<br>supports and encourages your spiritual journey</p>
-      </div>
-      <div class="box2">
+        <p>
+          Find belonging in a welcoming community that supports and encourages
+          your spiritual journey.
+        </p>
+      </article>
+      <article class="grid_card grid_card--faith">
         <h3>Grow in Faith</h3>
-        <p>Deepen your understanding of God's word through<br> engaging in sermons and Bible studies.</p>
-      </div>
-      <div class="box3">
-        <h3>Serve others</h3>
-        <p>Put your Faith in action by serving in our community<br> and making positive impact.</p>
-      </div>
-      <div class="box4">
+        <p>
+          Deepen your understanding of God's word through engaging sermons and
+          Bible studies.
+        </p>
+      </article>
+      <article class="grid_card grid_card--serve">
+        <h3>Serve Others</h3>
+        <p>
+          Put your faith in action by serving in our community and making a
+          positive impact.
+        </p>
+      </article>
+      <article class="grid_card grid_card--give">
         <h3>Give</h3>
-        <p>This is where you can give to our ministry, let's make<br> a difference in the society</p>
-      </div>
-    </div>
+        <p>Support our ministry and help make a difference in the society.</p>
+      </article>
+    </section>
 
-    <div class="container1">
-      <div class="content_message">
-        <h4>Join Us in Worship</h4>
-        <p>Experience the presence of God with us.</p>
+    <!-- Join Us in Worship section -->
+    <section class="worship_bg">
+      <div class="container worship_container">
+        <div class="content_message">
+          <h4>Join Us in Worship</h4>
+          <p>Experience the presence of God with us.</p>
+        </div>
+        <div class="schedule_content">
+          <div class="service_schedule">
+            <p>Sunday Service<br />10:00 AM – 12:00 PM</p>
+          </div>
+          <div class="service_schedule">
+            <p>Wednesday Bible Study<br />5:00 PM – 7:00 PM</p>
+          </div>
+          <div class="service_schedule">
+            <p>Tuesday Prayer Meeting<br />7:00 PM – 8:00 PM</p>
+          </div>
+        </div>
+        <button type="button" class="join_us_button">
+          Join us this Sunday
+        </button>
       </div>
-      <div class="schedule_content">
-        <div class="service_schedule">
-          <p>Sunday Service<br /> 10:00 AM - 12:00 AM</p>
-        </div>
-        <div class="service_schedule">
-          <p>Wednesday Bible Study<br /> 5:00 PM - 7:00 PM</p>
-        </div>
-        <div class="service_schedule">
-          <p>Tuesday Prayer Meeting<br /> 7:00 PM - 8:00 PM </p>
-        </div>
-      </div>
-      <div>
-          <button class="schedule_button">Join us this Sunday</button>
-        </div>
+    </section>
+
+    <div id="site-footer"></div>
+
+    <script src="script.js"></script>
   </body>
 </html>
