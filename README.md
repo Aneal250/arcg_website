@@ -6,3 +6,9 @@ designed by Engr Nnaemeka (member planning committee)
 
 17/05/2026
 I worked on the Hero Section of the project.
+
+21/05/2026
+i worked on the grid layout of the project
+
+24/05/2026
+i worked on the schedule content

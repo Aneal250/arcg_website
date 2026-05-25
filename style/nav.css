@@ -18,7 +18,8 @@ nav {
   list-style-type: none;
   gap: 20px;
   cursor: pointer;
-  font-family: "Poppins", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
   font-size: 15px;
   padding-right: 30px;
 }
@@ -38,7 +39,8 @@ nav {
   border: none;
   cursor: pointer;
   font-size: 15px;
-  font-family: Poppins, sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
   margin-right: 80px;
 }
 
