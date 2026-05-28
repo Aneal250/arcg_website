@@ -17,6 +17,14 @@
   flex-shrink: 0;
 }
 
+.navbar p {
+  text-align: left;
+  align-items: left;
+  justify-content: left;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+}
+
 .logo {
   height: 62px;
   width: 62px;
