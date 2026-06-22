@@ -1,3 +1,7 @@
+.contact_body {
+  background-color: #f8fbfc;
+}
+
 .hero_container {
   display: flex;
   flex-direction: column;
@@ -7,189 +11,201 @@
   margin: auto;
 }
 .hero_content {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    background-image: url('../assests/imgs/openbible.jpg');
-    background-size: cover;
-    background-position: center;
-    margin: auto;
-    padding: 213px 293px 298px 293px;
-    width: 1392px;
-    height: 705px;
-    border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url("../assests/imgs/openbible.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  padding: 213px 293px 298px 293px;
+  width: 1392px;
+  height: 705px;
+  border-radius: 50px;
 }
 .hero_content h1 {
-    font-size: 80px;
-    font-weight: bold;
-    font-family: "Rubik", sans-serif;
-    font-weight: 700;
-    margin-bottom: 0px;
+  font-size: 80px;
+  font-weight: bold;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  margin-bottom: 0px;
 }
 .hero_content p {
-    font-size: 32px;
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    color: white;
-    -webkit-text-stroke: 1px solid black;
+  font-size: 32px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: white;
+  -webkit-text-stroke: 1px solid black;
 }
 
 .contact_container {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    gap: 75px;
-    background-color: #f1f2f375;
-    padding-bottom: 137px;
-    padding-top: 125px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 75px;
+  padding-bottom: 137px;
+  padding-top: 125px;
 }
 .contact_content {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    text-align: left;
-    gap: 30px;
-    padding-top: 54px;
-    line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  gap: 30px;
+  padding-top: 54px;
+  line-height: 1.5;
 }
 .contact_address h2 {
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    font-size: 24px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
 }
 .contact_address p {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
 }
 .contact_number h2 {
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    font-size: 24px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
 }
 .contact_number p {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
 }
 .contact_schedule h2 {
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    font-size: 24px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
 }
 .contact_schedule p {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
 }
 .contact_hero {
-    background-color: white;
-    border-radius: 25px;
-    display: flex;
-    flex-direction: row;
-    width: 1312px;
-    height: 900px;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    gap: 75px;
+  background-color: white;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  width: 1312px;
+  height: 900px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
 }
-.church_location img {
-    border-radius: 20px;
-}
+
 .fa-brands {
-    font-size: 20px;
-    color: white;
-    -webki
-    t-text-stroke: 1px black;
-    padding: 10px;
-    cursor: pointer;
+  font-size: 20px;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  padding: 10px;
+  cursor: pointer;
 }
 .fa-solid {
-    font-size: 20px;
-    color: white;
-    -webkit-text-stroke: 1px black;
-    padding: 5px;
+  font-size: 20px;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  padding: 5px;
 }
 
 .church_map {
-    width: 738px;
-    height: 850px;
-    border-radius: 15px;
-    padding-top: 25px;
+  width: 738px;
+  height: 850px;
+  border-radius: 15px;
+  padding-top: 25px;
 }
 
-.location_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-    flex-direction: row;
-    margin: auto;
-    gap: 40px;
-    padding: 40px 69px 100px 69px;
-    font-family: "Lato", sans-serif;
+/* location section */
+/*  target div make the image as backround */
+
+.location_image {
+  background-image: url("../assests/imgs/lagos.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 776px;
+  height: 592px;
+  border-radius: 10px;
+}
+
+.contact_location_section {
+  position: relative;
+}
+
+.location_content {
+  background-color: white;
+  width: 776px;
+  height: 440px;
+  position: absolute;
+  top: 100px;
+  right: 0px;
+  border-radius: 10px;
+  padding: 15px;
 }
 .location_content h2 {
-    font-size: 32px;
-    font-weight: 500;
+  font-size: 32px;
+  font-weight: 500;
 }
 .location_content p {
-    font-size: 18px;
-    font-weight: 400;
+  font-size: 18px;
+  font-weight: 400;
 }
 .location_heading {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Lato", sans-serif;
 }
 .location_heading h2 {
-    margin-bottom: 0px;
-    font-size: 40px;
-    font-weight: 600;
+  margin-bottom: 0px;
+  font-size: 40px;
+  font-weight: 600;
 }
 .lagos_contact .fa-solid p {
-    display: grid;
-    grid-template-columns: (2 1fr);
+  display: grid;
+  grid-template-columns: (2 1fr);
 }
 
 .branch_container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: left;
-    align-items: center;
-    gap: 30px;
-    margin-bottom: 120px;
-    font-family: "Lato", sans-serif;
-    color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: left;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 120px;
+  font-family: "Lato", sans-serif;
+  color: black;
 }
 .branch_content1 img {
-    width: 430px;
-    height: 275px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    padding: 10px;
+  width: 430px;
+  height: 275px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  padding: 10px;
 }
 .branch_content2 img {
-    width: 430px;
-    height: 275px;
-    border-top-right-radius: 30px;
-    border-top-left-radius: 30px;
-    padding: 10px;
+  width: 430px;
+  height: 275px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  padding: 10px;
 }
 .branch_content3 img {
-    width: 430px;
-    height: 275px;
-    border-top-right-radius: 30px;
-    border-top-left-radius: 30px;
-    padding: 10px;
+  width: 430px;
+  height: 275px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  padding: 10px;
 }
 
 .scripture_container {
@@ -225,7 +241,20 @@
   text-align: right;
   align-items: right;
   justify-content: right;
-  color:rgb(72, 168, 212);
+  color: rgb(72, 168, 212);
   font-family: "Lato", sans-serif;
   font-weight: 500;
+}
+
+.location_contact_cards {
+  display: grid;
+  grid-template-rows: (4 1fr);
+}
+
+.location_contact_card {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 200px 1fr;
+  height: 64px;
+  gap: 10px;
 }
