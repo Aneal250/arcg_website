@@ -14,7 +14,7 @@ Designed by **Engr. Nnaemeka** (member, planning committee).
 
 ## Tech stack
 
-- HTML5
+- HTML5.
 - CSS3 (modular stylesheets in `style/`)
 - Vanilla JavaScript (`script.js`)
 
@@ -66,21 +66,21 @@ npx serve .
 
 ## Pages
 
-| Page       | File           | Status                          |
-| ---------- | -------------- | ------------------------------- |
-| Home       | `index.html`   | Hero, values grid, worship CTA  |
-| Events     | `event.html`   | Placeholder                     |
-| Gallery    | `gallery.html` | Placeholder                     |
-| About      | `about.html`   | Placeholder                     |
-| Contact    | `contact.html` | Placeholder                     |
+| Page    | File           | Status                         |
+| ------- | -------------- | ------------------------------ |
+| Home    | `index.html`   | Hero, values grid, worship CTA |
+| Events  | `event.html`   | Placeholder                    |
+| Gallery | `gallery.html` | Placeholder                    |
+| About   | `about.html`   | Placeholder                    |
+| Contact | `contact.html` | Placeholder                    |
 
 ## Development log
 
-| Date       | Work                                      |
-| ---------- | ----------------------------------------- |
-| 17/05/2026 | Hero section                              |
-| 21/05/2026 | Grid layout (values cards)                |
-| 24/05/2026 | Schedule content (worship section)        |
+| Date       | Work                               |
+| ---------- | ---------------------------------- |
+| 17/05/2026 | Hero section                       |
+| 21/05/2026 | Grid layout (values cards)         |
+| 24/05/2026 | Schedule content (worship section) |
 
 ## Contact (church)
 
