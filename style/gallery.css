@@ -1,0 +1,270 @@
+.hero_container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.541)), url('../assests/imgs/camera.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 97px;
+  width: 1312px;
+  height: 705px;
+  border-radius: 50px;
+}
+.hero-content h1 {
+    font-size: 80px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.hero-content p {
+    font-size: 24px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    margin-top: 12px;
+    padding: 0 254px 0 254px;
+}
+.gallery_container {
+    width: 1312px;
+    height: 1500px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 120px;
+}
+.gallery-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+.gallery-content p {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 280px;
+    padding-left: 13px;
+    justify-content: left;
+    text-align: left;
+    align-items: left;
+}
+.gallery1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.192)), url(../assests/imgs/gallery/Apostle.png);
+    background-size: cover;
+    background-position: center;
+    width: 313px;
+    height: 360px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.gallery2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.192)), url(../assests/imgs/gallery/media.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 313px;
+    height: 360px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.gallery3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.192)), url(../assests/imgs/gallery/churchservice.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 313px;
+    height: 360px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.gallery4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.192)), url(../assests/imgs/gallery/communityservice.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 313px;
+    height: 360px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.gallery5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.192)), url(../assests/imgs/gallery/churchconference.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 313px;
+    height: 360px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.gallery6 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.192)), url(../assests/imgs/gallery/outreach.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 313px;
+    height: 360px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.gallery7 {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.192)), url(../assests/imgs/gallery/childdedication.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 313px;
+    height: 360px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.gallery8 {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.192)), url(../assests/imgs/gallery/specialworship.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 313px;
+    height: 360px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.gallery9 {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.192)), url(../assests/imgs/gallery/specialevent.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 313px;
+    height: 360px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.gallery10 {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.192)), url(../assests/imgs/gallery/campusministry.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 313px;
+    height: 360px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.gallery11 {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.192)), url(../assests/imgs/gallery/biblestudygroup.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 313px;
+    height: 360px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.gallery12 {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.192)), url(../assests/imgs/gallery/prayermeeting.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 313px;
+    height: 360px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.gallery13 {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.192)), url(../assests/imgs/gallery/youthconference.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 313px;
+    height: 360px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.gallery14 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.192)), url(../assests/imgs/gallery/familyday.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 313px;
+    height: 360px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.gallery15 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.192)), url(../assests/imgs/gallery/women.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 313px;
+    height: 360px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+.gallery16 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.192)), url(../assests/imgs/gallery/men.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 313px;
+    height: 360px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+.scripture_container {
+  background-color: rgba(237, 237, 247, 0.671);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 64px;
+  margin-bottom: 100px;
+  border-radius: 25px;
+  width: 1312px;
+  height: 328px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.scripture_container h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  color: rgb(72, 168, 212);
+  font-weight: 600;
+  text-align: center;
+}
+.scripture_container p {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0px;
+}
+.scripture_message .verse {
+  text-align: right;
+  align-items: right;
+  justify-content: right;
+  color:rgb(72, 168, 212);
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+}
