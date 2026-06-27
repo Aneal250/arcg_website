@@ -44,6 +44,18 @@ function setMenuOpen(open) {
   document.body.style.overflow = open ? "hidden" : "";
 }
 
+function highlightCurrentNavLink() {
+  const page = window.location.pathname.split("/").pop() || "index.html";
+  navMenu?.querySelectorAll("a").forEach((link) => {
+    const href = link.getAttribute("href") || "";
+    const isHome = page === "index.html" && (href === "index.html" || href === "./");
+    const isMatch = href === page || href.endsWith(`/${page}`);
+    link.classList.toggle("is-active", isHome || isMatch);
+  });
+}
+
+highlightCurrentNavLink();
+
 if (navbar && navToggle && navMenu) {
   navToggle.addEventListener("click", (e) => {
     e.stopPropagation();
@@ -60,6 +72,12 @@ if (navbar && navToggle && navMenu) {
       return;
     }
     setMenuOpen(false);
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && navbar.classList.contains("is-open")) {
+      setMenuOpen(false);
+    }
   });
 
   navMenu.querySelectorAll("a").forEach((link) => {

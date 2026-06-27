@@ -1,7 +1,9 @@
 :root {
   --color-primary: darkred;
   --color-accent: red;
+  --color-teal: rgb(72, 168, 212);
   --max-width: 1440px;
+  --content-width: min(100%, 1312px);
   --section-padding-x: 64px;
   --section-padding-y: 36px;
   --radius-lg: 25px;
@@ -16,6 +18,7 @@
 
 html {
   height: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -24,6 +27,13 @@ body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .container {
@@ -31,6 +41,49 @@ body {
   margin: 0 auto;
   padding: var(--section-padding-y) var(--section-padding-x);
   width: 100%;
+}
+
+/* Shared scripture block (used on home, contact, gallery, events) */
+.scripture_container {
+  background-color: rgba(237, 237, 247, 0.671);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: clamp(32px, 6vw, 64px) var(--section-padding-x);
+  margin: 0 auto 100px;
+  border-radius: var(--radius-lg);
+  width: var(--content-width);
+  min-height: auto;
+}
+
+.scripture_container h2 {
+  font-family: "Lato", sans-serif;
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  color: var(--color-teal);
+  font-weight: 600;
+  text-align: center;
+  margin: 0 0 0.5rem;
+}
+
+.scripture_container p {
+  font-family: "Lato", sans-serif;
+  font-size: clamp(1rem, 2vw, 1.125rem);
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  line-height: 1.6;
+  max-width: 65ch;
+}
+
+.scripture_message .verse {
+  text-align: right;
+  color: var(--color-teal);
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  margin-top: 0.75rem;
+  align-self: stretch;
 }
 
 @media (max-width: 900px) {
