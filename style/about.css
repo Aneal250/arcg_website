@@ -1,0 +1,289 @@
+.about_hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.hero_container_content {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.521)), url(../assests/imgs/church-pue.jpeg);
+    background-position: center;
+    border-radius: 25px;
+    padding: 150px 245px 216px 245px;
+    color:white;
+    width: 1392px;
+    height: 705px;
+}
+.hero_container_content h2 {
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+}
+.hero_container_content p {
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.church_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    font-family: "Lato", sans-serif;
+    line-height: 1.4;
+    margin-bottom: 134px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+.church_container_content h2 {
+    font-size: 32px;
+}
+.church_container_content p {
+    font-size: 18px;
+}
+.church {
+    width: 646px;
+    height: 444px;
+    border-radius: 15px;
+}
+
+.foundation_container {
+    width: 1440px;
+    height: 946px;
+    margin-bottom: 100px;
+    padding-top: 50px;
+}
+.foundation_container_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lato", sans-serif;
+}
+.foundation_container_content h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.foundation_container_content p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.foundation_content_cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1304px;
+    height: 724px;
+    gap: 24px;
+    margin: 50px 72px 50px 64px;
+    margin: auto;
+    
+}
+.foundation_content_layout1 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-family: "Lato", sans-serif;
+}
+.foundation_content_cards h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 0;
+}
+.foundation_content_cards p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+.foundation_content_card1, .foundation_content_card4 {
+    color: white;
+    grid-row: span 1;
+    width: 640px;
+    height: 400px;
+    border-radius: 15px;
+    padding: 40px 52px 162px 30px;
+    background: linear-gradient(
+    to bottom,
+    black 0%,
+    #000000 82%,
+    #1f5f79 100%
+  );  
+}
+.foundation_content_card2, .foundation_content_card3 {
+    color: white;
+    padding: 40px 106px 98px 30px;
+    width: 640px;
+    height: 300px;
+    border-radius: 15px;
+    background: black;
+}
+
+.sermon_container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6)), url("../assests/imgs/message.jpg");
+  background-size: cover;
+  backdrop-filter: blur(205px);
+  margin: 0px auto 120px;
+  border-radius: var(--radius-lg);
+  width: var(--content-width);
+  max-width: var(--max-width);
+  padding-bottom: clamp(24px, 4vw, 60px);
+}
+.sermon_heading {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  font-size: 36px;
+  font-weight: 600px;
+}
+.sermon_heading h2{
+  margin-bottom: 10px;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+.sermon_heading p {
+  font-size: 18px;
+  margin-top: 0px;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+.sermon_content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  margin: 40px clamp(16px, 5vw, 102px) 60px;
+  width: auto;
+  max-width: 1188px;
+  min-height: auto;
+  padding: clamp(24px, 4vw, 40px);
+  border-radius: var(--radius-lg);
+}
+.sermon_content .icon1{
+  background-color: rgba(255, 255, 255, 0.205);
+  border: 1px solid rgba(255, 255, 255, 0.096);
+  border-radius: 200%;
+  backdrop-filter: blur(20px);
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+  padding: 25px;
+  font-size: 20px;
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+}
+.sermon_archive i {
+  margin-top: 30px;
+  color: white;
+  font-size: 18px;
+  gap: 20px;
+  padding: 30px;
+  cursor: pointer;
+}
+.sermon_content .sermon_title{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.sermon_content h2 {
+  font-size: 32px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  color: white; 
+}
+.sermon_title {
+  margin-top: 50px;
+  line-height: 1.2;
+}
+.sermon_title p {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: lighter;
+  font-style: medium;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0px;
+}
+.sermon_title h2 {
+  font-size: 32px;
+  font-weight: 600;
+  font-style: medium;
+}
+.sermon_date {
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+.sermon_message p {
+  margin-bottom: 45px;
+  font-size: 18px;
+  margin-top: 0px;
+  line-height: 1.5;
+}
+.sermon_quote {
+  background-color: rgba(255, 255, 255, 0.055);
+  border: 1px solid rgba(255, 255, 255, 0.075);
+  backdrop-filter: blur(100px);
+  border-radius: var(--radius-lg);
+  width: min(100%, 502px);
+  min-height: 105px;
+  padding-bottom: 12px;
+}
+.sermon_quote p {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding-left: 30px;
+  font-style: italic;
+  font-weight: 100;
+}
+.sermon_quote .verse {
+  margin-top: 10px;
+  text-align: right;
+  padding-right: 20px;
+  font-style: normal;
+}
+.sermon_content p {
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  text-align: left;
+  color: white;
+}
+.sermon_content button {
+  color: white;
+  background-color: var(--color-primary);
+  width: 229px;
+  height: 63px;
+  border-radius: var(--radius-md);
+  border: none;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+@media (min-width: 398px) {
+    .hero_container_content  {
+    flex-direction: column;
+    };
+}
