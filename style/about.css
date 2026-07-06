@@ -11,7 +11,7 @@
     border-radius: 25px;
     padding: 150px 245px 216px 245px;
     color:white;
-    width: 1392px;
+    width: 1312px;
     height: 705px;
 }
 .hero_container_content h2 {
@@ -84,7 +84,6 @@
     gap: 24px;
     margin: 50px 72px 50px 64px;
     margin: auto;
-    
 }
 .foundation_content_layout1 {
     display: flex;
