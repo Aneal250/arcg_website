@@ -42,7 +42,6 @@
   font-size: clamp(1rem, 2.5vw, 2rem);
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  font-size: 24px;
   color: white;
   max-width: 60ch;
   line-height: 1.5;
@@ -115,9 +114,9 @@
 }
 
 .church_map {
-  width: min(100%, 738px);
-  height: 838px;
-  max-height: 850px;
+  width: 100%;
+  height: auto;
+  max-height: 500px;
   object-fit: cover;
   border-radius: var(--radius-md);
 }
@@ -239,6 +238,12 @@
 }
 
 @media (max-width: 900px) {
+  .contact_container {
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 48px;
+  }
+
   .contact_hero {
     flex-direction: column;
   }
@@ -274,5 +279,9 @@
 
   .branch_container > div {
     max-width: 100%;
+  }
+
+  .church_map {
+    max-height: 320px;
   }
 }

@@ -118,7 +118,8 @@
   gap: 10px;
   width: 100%;
 }
-.icon { 
+
+.icon {
   font-size: 20px;
   color: #D1F5FF;
   -webkit-text-stroke: 2px #20839D;
@@ -231,6 +232,7 @@
   backdrop-filter: blur(50px);
   background-color: rgba(255, 255, 255, 0.151);
 }
+
 .icon_time {
   font-size: 30px;
   -webkit-text-stroke: 1px white;
@@ -243,7 +245,7 @@
   font-size: clamp(1rem, 2.5vw, 1.5rem);
   font-weight: 300;
   line-height: 1.4;
-  font-size: 24px; 
+  font-size: 24px;
 }
 
 .join_us_button {
@@ -277,7 +279,9 @@
 .message_content {
   font-family: "Lato", sans-serif;
 }
-.message_content p, h2 {
+
+.message_content p,
+h2 {
   text-align: left;
 }
 
@@ -309,33 +313,38 @@
   min-height: clamp(280px, 40vw, 436px);
   border-radius: var(--radius-md);
   padding-top: 40px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .event_card1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.534), rgba(0, 0, 0, 0.68)), url("../assests/imgs/youth1.jpg");
+  background-image: url("../assests/imgs/golden_jubliee.JPG");
 }
 
 .event_card2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68)), url("../assests/imgs/community1.jpg");
+  background-image: url("../assests/imgs/tre.jpg");
 }
-.events_message h2{
+
+.events_message h2 {
   font-family: "Lato", sans-serif;
   font-size: 32px;
   font-weight: 600;
   text-align: center;
 }
+
 .events_message p {
   font-family: "Lato", sans-serif;
   font-size: 18px;
   font-weight: 400;
   text-align: center;
 }
+
 .events_grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 30px;
   width: 100%;
 }
+
 .events_grid h3 {
   align-items: center;
   text-align: center;
@@ -352,6 +361,7 @@
   border-radius: 50px;
   margin-top: 36px;
 }
+
 .events_grid p {
   align-items: center;
   text-align: center;
@@ -364,6 +374,7 @@
   margin: auto;
   padding: 26px;
 }
+
 .event_schedule p {
   font-size: 14px;
   color: white;
@@ -382,6 +393,7 @@
   max-width: var(--max-width);
   padding-bottom: clamp(24px, 4vw, 60px);
 }
+
 .sermon_heading {
   display: flex;
   flex-direction: column;
@@ -392,17 +404,20 @@
   font-size: 36px;
   font-weight: 600px;
 }
-.sermon_heading h2{
+
+.sermon_heading h2 {
   margin-bottom: 10px;
   color: white;
   font-family: "Lato", sans-serif;
 }
+
 .sermon_heading p {
   font-size: 18px;
   margin-top: 0px;
   color: white;
   font-family: "Lato", sans-serif;
 }
+
 .sermon_content {
   display: flex;
   flex-direction: row;
@@ -421,7 +436,8 @@
   padding: clamp(24px, 4vw, 40px);
   border-radius: var(--radius-lg);
 }
-.sermon_content .icon1{
+
+.sermon_content .icon1 {
   background-color: rgba(255, 255, 255, 0.205);
   border: 1px solid rgba(255, 255, 255, 0.096);
   border-radius: 200%;
@@ -434,6 +450,7 @@
   width: 70px;
   height: 70px;
 }
+
 .sermon_archive i {
   margin-top: 30px;
   color: white;
@@ -442,23 +459,27 @@
   padding: 30px;
   cursor: pointer;
 }
-.sermon_content .sermon_title{
+
+.sermon_content .sermon_title {
   text-align: center;
   align-items: center;
   justify-content: center;
   display: flex;
   flex-direction: column;
 }
+
 .sermon_content h2 {
   font-size: 32px;
   font-family: "Lato", sans-serif;
   font-weight: 700;
-  color: white; 
+  color: white;
 }
+
 .sermon_title {
   margin-top: 50px;
   line-height: 1.2;
 }
+
 .sermon_title p {
   font-size: 20px;
   font-family: "Lato", sans-serif;
@@ -471,23 +492,27 @@
   flex-direction: column;
   margin-bottom: 0px;
 }
+
 .sermon_title h2 {
   font-size: 32px;
   font-weight: 600;
   font-style: medium;
 }
+
 .sermon_date {
   margin-top: 0px;
   font-size: 20px;
   font-weight: lighter;
   margin-bottom: 40px;
 }
+
 .sermon_message p {
   margin-bottom: 45px;
   font-size: 18px;
   margin-top: 0px;
   line-height: 1.5;
 }
+
 .sermon_quote {
   background-color: rgba(255, 255, 255, 0.055);
   border: 1px solid rgba(255, 255, 255, 0.075);
@@ -497,6 +522,7 @@
   min-height: 105px;
   padding-bottom: 12px;
 }
+
 .sermon_quote p {
   margin-top: 20px;
   margin-bottom: 0px;
@@ -504,12 +530,14 @@
   font-style: italic;
   font-weight: 100;
 }
+
 .sermon_quote .verse {
   margin-top: 10px;
   text-align: right;
   padding-right: 20px;
   font-style: normal;
 }
+
 .sermon_content p {
   font-size: 18px;
   font-family: "Lato", sans-serif;
@@ -517,6 +545,7 @@
   text-align: left;
   color: white;
 }
+
 .sermon_content button {
   color: white;
   background-color: var(--color-primary);
@@ -545,6 +574,7 @@
   text-align: center;
   margin-bottom: 15px;
 }
+
 .testimony_container p {
   font-family: "Lato", sans-serif;
   font-size: 18px;
@@ -553,6 +583,7 @@
   margin-top: 0px;
   line-height: 1.5;
 }
+
 .testimony_content {
   display: flex;
   flex-direction: row;
@@ -565,17 +596,20 @@
   max-width: var(--max-width);
   margin: 0 auto;
 }
+
 .testimony_content .icon_quote {
   font-size: 30px;
   font-family: "Lato", sans-serif;
   font-weight: 700;
 }
+
 .testimony_content p {
   font-size: 18px;
   font-family: "Lato", sans-serif;
   font-weight: 400;
   text-align: left;
 }
+
 .testimony_card {
   background-color: white;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.041);
@@ -671,4 +705,3 @@
     min-height: 140px;
   }
 }
-
