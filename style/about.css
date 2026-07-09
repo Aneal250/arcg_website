@@ -281,8 +281,9 @@
   margin-top: 40px;
 }
 
-@media (min-width: 398px) {
-    .hero_container_content  {
-    flex-direction: column;
-    };
+@media (max-width: 900px) {
+  .about_hero {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
 }
