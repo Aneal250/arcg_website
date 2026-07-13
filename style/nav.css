@@ -24,6 +24,27 @@
   margin: 0;
 }
 
+.container_logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.church_name {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  margin: auto;
+  text-decoration: none;
+  line-height: 0.6;
+}
+.church_name h1 {
+  font-size: 12px;
+}
+.church_name p {
+  font-size: 10px;
+  font-weight: 100;
+}
+
 .logo {
   height: 62px;
   width: 62px;
@@ -107,7 +128,9 @@
   height: 3px;
   background-color: #1a1a1a;
   border-radius: 2px;
-  transition: transform 0.25s ease, opacity 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    opacity 0.25s ease;
 }
 
 .navbar.is-open .nav-toggle-bar:nth-child(1) {

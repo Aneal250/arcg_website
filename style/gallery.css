@@ -1,22 +1,4 @@
-.church_name {
-  font-family: "Rubik", sans-serif;
-  font-weight: 600;
-  position: relative;
-  text-align: left;
-  align-items: left;
-  margin: auto;
-  width: 1312px;
-}
-.church_name h1 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-size: 12px;
-}
-.church_name p {
-  margin-top: 0px;
-  font-size: 10px;
-  font-weight: 100;
-}
+
 .hero_container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.541)), 
   url("../assests/imgs/gallery/camera.jpg");
