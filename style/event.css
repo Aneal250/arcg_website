@@ -1,3 +1,18 @@
+.church_name {
+  padding-left: 100px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+}
+.church_name h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 12px;
+}
+.church_name p {
+  margin-top: 0px;
+  font-size: 10px;
+  font-weight: 100;
+}
 .hero_container {
   display: flex;
   flex-direction: column;
@@ -7,7 +22,8 @@
   font-family: "Lato", sans-serif;
   margin: 0 auto 78px;
   padding: clamp(48px, 8vw, 80px) var(--section-padding-x);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.575)), url("../assests/imgs/stage1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.575)), 
+  url("../assests/imgs/events/stage1.jpg");
   background-size: cover;
   background-position: center;
   border-radius: var(--radius-lg);
@@ -170,15 +186,15 @@
 }
 
 .event_card4 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.336)), url("../assests/imgs/happyfamily.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.336)), url("../assests/imgs/events/happyfamily.jpg");
 }
 
 .event_card5 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.164)), url("../assests/imgs/biblestudy.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.164)), url("../assests/imgs/events/biblestudy.jpg");
 }
 
 .event_card6 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.158)), url("../assests/imgs/worship.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.158)), url("../assests/imgs/events/worship.jpg");
 }
 
 .content {

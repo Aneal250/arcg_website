@@ -1,17 +1,36 @@
+.church_name {
+  padding-left: 100px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+}
+.church_name h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 12px;
+}
+.church_name p {
+  margin-top: 0px;
+  font-size: 10px;
+  font-weight: 100;
+}
 /* Hero */
+.container_hero {
+  margin-top: 0px;
+  margin: auto;
+}
 .hero-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: 100%;
-  min-height: clamp(420px, 70vh, 705px);
+  width: 1312px;
+  min-height: 600px;
   padding: 48px 24px;
   border-radius: var(--radius-lg);
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.267)),
-    url("../assests/imgs/worshippers.jpg");
+    url("../assests/imgs/homepage/worshippers.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -97,17 +116,11 @@
   min-height: 330px;
   padding: 24px;
   border-radius: var(--radius-lg);
-  color: #fff;
+  color: black;
   text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-
-.grid_card--community {
-  background-image:
-    linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68)),
-    url("../assests/imgs/hug.jpg");
 }
 
 .card {
@@ -120,42 +133,25 @@
 }
 
 .icon {
-  font-size: 20px;
+  font-size: 50px;
   color: #D1F5FF;
-  -webkit-text-stroke: 2px #20839D;
+  -webkit-text-stroke: 3px #20839D;
   margin-bottom: 10px;
   border-radius: 50%;
   border-width: 20px;
   border-color: transparent;
   background-color: #D1F5FF;
-  padding: 30px;
-  width: 80px;
-  height: 80px;
-}
-
-.grid_card--faith {
-  background-image:
-    linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68)),
-    url("../assests/imgs/bible.jpg");
-}
-
-.grid_card--serve {
-  background-image:
-    linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68)),
-    url("../assests/imgs/service.jpg");
-}
-
-.grid_card--give {
-  background-image:
-    linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68)),
-    url("../assests/imgs/give.jpg");
+  padding: 20px;
+  padding-top: 25px;
+  width: 100px;
+  height: 100px;
 }
 
 .grid_card h3 {
   margin: 0 0 8px;
   font-family: "Lato", sans-serif;
   font-size: clamp(1.5rem, 3vw, 2rem);
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .grid_card p {
@@ -170,7 +166,7 @@
 .worship_bg {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42)),
-    url("../assests/imgs/praying.jpg");
+    url("../assests/imgs/homepage/praying.jpg");
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
@@ -317,11 +313,11 @@ h2 {
 }
 
 .event_card1 {
-  background-image: url("../assests/imgs/golden_jubliee.JPG");
+  background-image: url("../assests/imgs/homepage/golden_jubliee.JPG");
 }
 
 .event_card2 {
-  background-image: url("../assests/imgs/tre.jpg");
+  background-image: url("../assests/imgs/homepage/tre.jpg");
 }
 
 .events_message h2 {
@@ -384,7 +380,8 @@ h2 {
 
 /* Sermons */
 .sermon_container {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6)), url("../assests/imgs/message.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6)), 
+  url("../assests/imgs/homepage/message.jpg");
   background-size: cover;
   backdrop-filter: blur(205px);
   margin: 50px auto 120px;
@@ -620,11 +617,16 @@ h2 {
   padding: 20px;
 }
 
+.navbar p {
+  justify-content: left;
+  text-align: left;
+}
 /* Responsive */
-@media (max-width: 900px) {
-  .values_container {
+@media (max-width: 768px) {
+  .container_hero {
     grid-template-columns: 1fr;
     gap: 16px;
+    display: block;
   }
 
   .grid_card {

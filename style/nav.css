@@ -5,7 +5,7 @@
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 10px var(--section-padding-x);
+  padding: 5px var(--section-padding-x);
   box-sizing: border-box;
   position: relative;
   z-index: 1000;
