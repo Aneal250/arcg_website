@@ -28,12 +28,23 @@
   height: 62px;
   width: 62px;
   display: block;
+  margin-top: 10px;
+}
+.logo:hover {
+  transform: scale(1.05);
+  transition: all 0.3 ease-in-out;
+  cursor: pointer;
 }
 
 .nav_right {
   display: flex;
   align-items: center;
   gap: 32px;
+}
+.nav_right:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
 }
 
 .menu {

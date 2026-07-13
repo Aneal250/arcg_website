@@ -3,9 +3,13 @@
 }
 
 .church_name {
-  padding-left: 100px;
   font-family: "Rubik", sans-serif;
   font-weight: 600;
+  position: relative;
+  text-align: left;
+  align-items: left;
+  margin: auto;
+  width: 1312px;
 }
 .church_name h1 {
   margin-top: 0px;

@@ -1,7 +1,11 @@
 .church_name {
-  padding-left: 100px;
   font-family: "Rubik", sans-serif;
   font-weight: 600;
+  position: relative;
+  text-align: left;
+  align-items: left;
+  margin: auto;
+  width: 1312px;
 }
 .church_name h1 {
   margin-top: 0px;
@@ -109,6 +113,13 @@
   justify-content: center;
   font-family: "Lato", sans-serif;
   text-align: center;
+}
+.foundation_content_card1:hover,
+.foundation_content_card2:hover,
+.foundation_content_card3:hover,
+.foundation_content_card4:hover {
+  transform: scale(1.05);
+  transition: all 0.3 ease-in-out;
 }
 
 .foundation_container_content h2 {
