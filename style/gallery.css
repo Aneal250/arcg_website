@@ -1,7 +1,11 @@
 .church_name {
-  padding-left: 100px;
   font-family: "Rubik", sans-serif;
   font-weight: 600;
+  position: relative;
+  text-align: left;
+  align-items: left;
+  margin: auto;
+  width: 1312px;
 }
 .church_name h1 {
   margin-top: 0px;
@@ -74,6 +78,22 @@
   font-size: clamp(1.25rem, 2.5vw, 2rem);
   font-weight: 600;
   text-align: left;
+}
+
+.gallery1:hover,
+.gallery2:hover,
+.gallery3:hover,
+.gallery4:hover,
+.gallery5:hover,
+.gallery6:hover,
+.gallery7:hover,
+.gallery8:hover,
+.gallery9:hover,
+.gallery10:hover,
+.gallery11:hover,
+.gallery12:hover {
+  transform: scale(1.07);
+  transition: all 2.0 ease-in-out;
 }
 
 .gallery1 {
