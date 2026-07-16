@@ -344,10 +344,17 @@
   margin-top: 40px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
+  .hero_container_content {
+    width: 100%;
+    height: 100%;
+    padding-top: 75px;
+  }
+}
+@media (max-width: 768px) {
   .church_container {
     flex-direction: column;
-    text-align: center;
+    text-align: left;
   }
 
   .foundation_content_cards {
