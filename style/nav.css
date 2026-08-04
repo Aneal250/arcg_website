@@ -62,11 +62,6 @@
   align-items: center;
   gap: 32px;
 }
-.nav_right:hover {
-  cursor: pointer;
-  transform: scale(1.05);
-  transition: all 0.3s ease-in-out;
-}
 
 .menu {
   display: flex;
