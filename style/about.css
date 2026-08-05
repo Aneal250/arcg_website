@@ -379,3 +379,18 @@
     width: 100%;
   }
 }
+
+@media (max-width:1200px) {
+  .hero_container_content{
+    min-height: 400px;
+      padding: 32px 20px;
+      width: 100%;
+      height: 80%;
+  }
+
+  .church_container h2, p {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+}

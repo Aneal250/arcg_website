@@ -167,8 +167,8 @@
 
 @media (max-width:1200px) {
 
-  .hero-content{
-      min-height: 600px;
+  .hero_container {
+    min-height: 400px;
       padding: 32px 20px;
       width: 100%;
       height: 80%;

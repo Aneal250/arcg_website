@@ -37,47 +37,6 @@
   font-weight: 400;
 }
 
-.hero_buttons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 16px;
-  width: 100%;
-  max-width: 640px;
-  margin-top: 30px;
-  margin-bottom: 50px;
-}
-
-.hero_button,
-.hero_button1 {
-  font-family: "Nunito", sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  border-radius: var(--radius-md);
-  cursor: pointer;
-  padding: 16px 28px;
-  white-space: nowrap;
-  transition: all;
-}
-.hero_button:hover,
-.hero_button1:hover {
-  transform: scale(1.05);
-  transition: all 0.3s ease-in-out;
-}
-
-.hero_button {
-  background-color: var(--color-primary);
-  color: #fff;
-  border: none;
-}
-
-.hero_button1 {
-  background-color: transparent;
-  backdrop-filter: blur(20px);
-  color: #fff;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-}
-
 .hero_schedule {
   margin-top: 50px;
   max-width: 900px;
@@ -750,4 +709,12 @@ h2 {
   .service_schedule {
     min-height: 140px;
   }
+}
+
+@media (max-width:1200px) {
+  .container_hero{
+      padding: 32px 20px;
+      width: 100%;
+      height: 80%;
+    }
 }
