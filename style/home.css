@@ -256,7 +256,8 @@ h2 {
 }
 
 .event_card1,
-.event_card2 {
+.event_card2,
+.event_card3 {
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -273,8 +274,18 @@ h2 {
 .event_card2 {
   background-image: url("../assests/imgs/homepage/tre.jpg");
 }
+.event_card3 {
+  background-image: url("../assests/imgs/homepage/convergence.jpg");
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
 .event_card1:hover,
-.event_card2:hover {
+.event_card2:hover,
+.event_card3:hover {
   transform: scale(1.05);
   transition: all 0.3s ease-in-out;
   cursor: pointer;
