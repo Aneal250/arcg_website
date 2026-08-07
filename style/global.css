@@ -105,3 +105,11 @@ img {
     height: 100%
   }
 }
+
+@media (max-width:1200px) {
+  .container{
+      padding: 32px 20px;
+      width: 100%;
+      height: 80%;
+  }
+}
